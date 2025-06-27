@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* Design System Colors - matching prd/design-system.json */
+
+/* Background colors from design system */
+.bg-gray-900 { background-color: #0f0f0f; } /* background.dark */
+.bg-gray-800 { background-color: #1a1a1a; } /* background.medium / primary.dark */
+.bg-gray-700 { background-color: #2d2d2d; } /* background.light / primary.medium */
+.bg-gray-600 { background-color: #404040; } /* primary.light */
+
+/* Accent colors from design system */
+.bg-yellow-600 { background-color: #d4c4b0; } /* accent.gold */
+.bg-yellow-500 { background-color: #c4b4a0; } /* button.primary.hover */
+
+/* Text colors from design system */
+.text-white { color: #ffffff; } /* text.primary */
+.text-gray-300 { color: #cccccc; } /* text.secondary */
+.text-gray-400 { color: #999999; } /* text.muted */
+.text-yellow-600 { color: #d4c4b0; } /* text.accent / accent.gold */
+.text-gray-900 { color: #1a1a1a; } /* primary.dark */
+
+/* Border colors from design system */
+.border-gray-700 { border-color: #2d2d2d; } /* primary.medium */
+.border-gray-600 { border-color: #404040; } /* primary.light */
+
+/* Hover states using design system colors */
+.hover\:bg-yellow-500:hover { background-color: #c4b4a0; } /* button.primary.hover */
+.hover\:text-yellow-600:hover { color: #d4c4b0; } /* accent.gold */
+.hover\:border-yellow-600:hover { border-color: #d4c4b0; } /* accent.gold */
+.hover\:border-gray-600:hover { border-color: #404040; } /* primary.light */
+
+/* Focus states using design system colors */
+.focus\:border-yellow-600:focus { border-color: #d4c4b0; } /* accent.gold */
+
+/* Additional design system colors */
+.bg-transparent { background-color: transparent; }
+.from-gray-700 { --tw-gradient-from: #2d2d2d; } /* primary.medium */
+.to-gray-600 { --tw-gradient-to: #404040; } /* primary.light */

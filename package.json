@@ -1,0 +1,20 @@
+{
+  "name": "1rstnoelle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/styles.css --watch",
+    "build-css-prod": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/styles.css --minify",
+    "build": "npm run build-css-prod",
+    "dev": "npm run build-css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
