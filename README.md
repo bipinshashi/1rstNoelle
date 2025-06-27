@@ -4,7 +4,7 @@ A professional website for 1rstNoelle, a premium fix & flip real estate company.
 
 ## 🚀 Live Demo
 
-Visit the live website: [1rstNoelle on GitHub Pages](https://[username].github.io/1rstNoelle)
+Visit the live website: [1rstNoelle on GitHub Pages](https://bipinshashi.github.io/1rstNoelle)
 
 ## 🛠️ Technology Stack
 
@@ -53,7 +53,7 @@ The website implements a custom design system with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[username]/1rstNoelle.git
+   git clone https://github.com/bipinshashi/1rstNoelle.git
    cd 1rstNoelle
    ```
 
@@ -83,7 +83,7 @@ The website implements a custom design system with:
 ### Building for Production
 
 ```bash
-npm run build
+npm run build-css-prod
 ```
 
 This creates an optimized, minified CSS file in `dist/styles.css`.
@@ -122,7 +122,7 @@ If you prefer manual deployment:
 
 2. **Build and commit**
    ```bash
-   npm run build
+   npm run build-css-prod
    git add .
    git commit -m "Add built CSS for GitHub Pages"
    git push

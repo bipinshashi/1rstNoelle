@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/styles.css --watch",
-    "build-css-prod": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/styles.css --minify",
-    "build": "npm run build-css-prod",
-    "dev": "npm run build-css"
+    "build-css-prod": "npx @tailwindcss/cli -i ./src/styles.css -o ./dist/styles.css --minify"
   },
   "keywords": [],
   "author": "",
