@@ -109,7 +109,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 3. **Automatic deployment**
    - GitHub Actions will automatically build and deploy
    - Check the "Actions" tab for deployment status
-   - Site will be available at `https://[username].github.io/1rstNoelle`
+   - Site will be available at `https://bipinshashi.github.io/1rstNoelle`
 
 ### Manual Deployment
 
@@ -154,24 +154,3 @@ Edit `index.html` to update:
 - Contact details
 - Service offerings
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-For questions about this website or 1rstNoelle's services:
-- Email: info@1rstnoelle.com
-- Phone: (555) 123-4567
-
----
-
-Built with ❤️ for premium real estate transformations.
